@@ -12,17 +12,6 @@ if(isset($_POST['username']) && isset($_POST['password']))
         $_SESSION["user"] = $_POST['username'];
         $token = Token::generate(session_id());
         setcookie("id", session_id());
-        setcookie("token", $token);
-        header('Location: home.php');
-        header('Location: ./home.php');
-    }
-
-    else if($_POST['username'] == "test" && $_POST['password']=="123")
-    {
-        $_SESSION["user"] = $_POST['username'];
-        $token = Token::generate(session_id());
-        setcookie("id", session_id());
-        setcookie("token", $token);
         header('Location: home.php');
         header('Location: ./home.php');
     }

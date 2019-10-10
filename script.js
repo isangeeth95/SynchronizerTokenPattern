@@ -1,4 +1,4 @@
-$(document).ready(function(){
+	$(document).ready(function(){
     var session_id = document.cookie.split(";")[0].split("=")[1];
     var el = '<input id="login-username" type="hidden" class="form-control" name="csrf_token" value="fuck">';
     $.ajax({
@@ -8,7 +8,6 @@ $(document).ready(function(){
 		data: {session_id},
 		success: function(result){
 			console.log(result.id);
-			alert(result.id+" : INSIDE the AJAX function");
             $('#hidden_input').append(el);
             $('[name="csrf_token"]').val(result.id);
 		}
