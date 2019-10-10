@@ -1,0 +1,452 @@
+.container{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 1000px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 10em;
+    /*background-color: white;*/
+    box-shadow: 5px 5px gray;
+    border: 1px solid gray;
+    background:url(../images/login.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+/*-------horizontal line---------*/
+
+hr{
+    margin-top: 100px;
+    color: #cb2027;
+    width: 90%;
+    clear: left;
+}
+
+/*-----------header----------*/
+
+.headerBar{
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    padding-bottom: 150px;
+//border: 2px solid black;
+    position: fixed;
+    top: 0px;
+
+}
+
+.headerBar header{
+    padding-left: 30px;
+    float: left;
+    font-weight: bolder;
+    font-size: 6em;
+//font-style: oblique;
+    font-family: "Verdana";
+    text-shadow: 5px 5px lightgray;
+    color: darkviolet;
+}
+
+.headerBar ul{
+//border: 2px solid black;
+    width: 600px;
+    list-style-type: none;
+    padding-top: 20px;
+    margin: auto;
+    float: right;
+}
+
+.headerBar li{
+    align-content: right;
+    float: left;
+    margin: auto;
+    padding: 0px;
+
+}
+
+.headerBar li a{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    font-weight: normal;
+    transition: font-size 1s;
+}
+
+.headerBar li a:hover{
+    font-size: 25px;
+}
+
+#join a{
+    border: 5px solid black;
+    text-decoration: none;
+    width: 100px;
+    margin-right: 20px;
+    padding-top: 0px;
+    background-color: white;
+    color: black;
+    transition: color;
+    transition: font-size 1s;
+}
+
+#join a:hover{
+    background-color: mediumspringgreen;
+}
+
+a{
+    padding-top: 5px;
+    width: 150px;
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+
+}
+
+/*------------slide show---------------*/
+
+
+.nav{
+//padding-top: 40px;
+    box-sizing: border-box;
+    height: 700px;
+    margin: auto;
+//border: 2px solid black;
+    margin-top: 350px;
+    width: 1420px;
+}
+
+.nav .transparent{
+    box-sizing: border-box;
+//background-color: darkgrey;
+//opacity: 0.5%;
+    height: 700px;
+    width: 420px;
+//border: 2px solid black;
+    float: left;
+    margin: auto;
+
+}
+
+.nav .transparent .color{
+    box-sizing: border-box;
+    background-color: darkturquoise;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 650px;
+//border: black;
+//opacity: 0.5;
+    float: left;
+}
+
+.nav .transparent .color .text p{
+    box-sizing: border-box;
+//border: 2px solid deeppink;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+//margin-bottom: 100px;
+    font-family: "Times New Roman";
+    font-weight: 600;
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+}
+
+.nav .transparent .color .text{
+    font-family: "URW Chancery L";
+    font-variant: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+//font-style: italic;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+
+
+.nav .homeImg{
+    float: left;
+    box-sizing: border-box;
+//border: 2px solid black;
+    width:1000px;
+    height:650px;
+    margin: auto;
+}
+
+.nav .homeImg .slideShow{
+    float: left;
+    display: none;
+    width: 100%;
+    max-height:650px;
+    margin: auto;
+}
+
+/*-----------home bar-----------*/
+
+#nav1{
+    box-sizing: border-box;
+    clear: none;
+    margin: auto;
+//padding: 0px;
+    height: 50px;
+    width: 100%;
+//position: relative;
+//border: 1px solid cornflowerblue;
+    font-family: "URW Chancery L";
+    background-color: white;
+    box-shadow: 0px 5px grey;
+}
+
+#nav1 table tr{
+    position: center;
+    border-spacing: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+#nav1 tr a{
+//border: 2px solid black;
+    height: 35px;
+    margin: auto;
+    width: 150px;
+    font-weight: normal;
+    color: -moz-visitedhyperlinktext;
+    font-weight: bold;
+    font-size: 20px;
+    transition: font-size 1s;
+}
+
+#nav1 td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    transition: color 2s;
+//background-color: mediumspringgreen;
+}
+
+#nav1 td:hover a:hover{
+    background-color: mediumspringgreen;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.sticky{
+    opacity: 1;
+    position: fixed;
+    top: 200px;
+    width: 100%;
+}
+
+.container h1{
+    font-family: "Times New Roman";
+    padding-top: 100px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 2px 2px grey;
+}
+
+/*-------------search------------*/
+.search-box{
+    box-sizing: border-box;
+    min-height: 45px;
+    width: 1280px;
+    margin: 10px 70px 0px 0px;
+    border: 2px solid black;
+    box-shadow: 3px 3px orangered;
+    float: right;
+    background-color: black;
+}
+
+
+/*-------------packages------------*/
+
+.packagesHeader{
+    font-family: "serif";
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px grey;
+    color: purple;
+    margin-top: -100px;
+    margin-bottom: -50px;
+}
+
+.packages-left{
+    box-sizing: border-box;
+    height: 1520px;
+    width: 600px;
+//border: 2px solid black;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.packages-boxleft{
+    box-sizing: border-box;
+    height: 500px;
+    width: 600px;
+    margin: 0px 0px 10px 0px;
+//border: 2px solid black;
+    float: left;
+    background-color: lightcoral;
+    transition: font-size 1s;
+}
+
+.packages-boxleft:hover{
+    font-size: 105%;
+    background-color: lightgreen;
+}
+
+.packages-right{
+    margin: 300px 0px 0px 20px;
+    box-sizing: border-box;
+    height: 1520px;
+    width: 600px;
+//border: 2px solid black;
+    float: left;
+}
+
+.packages-boxright{
+    box-sizing: border-box;
+    height: 500px;
+    width: 600px;
+    margin: 0px 0px 10px 0px;
+//border: 2px solid black;
+    float: left;
+    background-color: lightsalmon;
+    transition: font-size 1s;
+}
+
+.packages-boxright:hover{
+    font-size: 105%;
+    background-color: lightseagreen;
+}
+
+.packages-boxleft img ,.packages-boxright img{
+    margin-top: 10px;
+}
+
+.packages-boxleft p{
+    font-size:20px;
+    margin: auto;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.packages-boxright p{
+    font-size:20px;
+    margin: auto;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+
+/*-------------quote-----------*/
+
+.quote-box{
+    box-sizing: border-box;
+    width: 800px;
+    height: 700px;
+//border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+blockquote{
+    width: 600px;
+    margin-top: 50px;
+    margin: auto;
+    background-image: url("homeImages/quotation start.jpg");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 100px;
+}
+
+blockquote #quote{
+    text-align: center;
+    background-image: url("homeImages/quotation end.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 150px;
+
+    font-family: "Droid Sans";
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 2px 3px silver;
+}
+
+blockquote hr{
+    width: 300px;
+}
+
+blockquote h2{
+    text-align: center;
+}
+
+blockquote p{
+    text-align: center;
+}
+
+
+/*------------video-------------*/
+.video-box{
+    box-sizing: border-box;
+    height: 700px;
+    width: 1200px;
+//border: 2px solid black;
+//position: relative;
+    clear: left;
+    margin: 100px auto;
+
+
+}
+
+.video-box video{
+    box-sizing: border-box;
+    box-shadow: 10px 20px darkmagenta;
+    height: 700px;
+    width: 1200px;
+//border: 2px solid black;
+//position: relative;
+//clear: left;
+//margin: auto;
+}
+
+/*----------imagesForHome-------*/
+
+.imagesForHome{
+    box-sizing: border-box;
+    min-height: 1000px;
+    width: 1200px;
+//border: 2px solid black;
+    margin: 100px auto;
+}
+
+.imagesForHome img{
+    box-sizing: border-box;
+    min-height: 500px;
+    width: 1200px;
+//border: 2px solid black;
+    margin: 10px auto;
+}
+
+.bottom{
+    box-sizing: border-box;
+    height: 10px;
+    width: auto;
+//border: 2px solid black;
+    position: relative;
+    clear: left;
+}
