@@ -1,6 +1,6 @@
 	$(document).ready(function(){
     var session_id = document.cookie.split(";")[0].split("=")[1];
-    var el = '<input id="login-username" type="hidden" class="form-control" name="csrf_token" value="fuck">';
+    var el = '<input id="login-username" type="hidden" class="form-control" name="csrf_token" value="test">';
     $.ajax({
 		type: 'POST',
 		url: 'getCsrf.php',
