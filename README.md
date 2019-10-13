@@ -1,6 +1,6 @@
 # SynchronizerTokenPattern
 
-Setup Requirements: JetBrains PhpStorm (for windows usersand Linux users) installed on your machines.
+Setup Requirements: JetBrains PhpStorm (for windows users and Linux users) installed on your machines.
 Download PhpStorm from https://www.jetbrains.com/phpstorm/download/#section=windows
 
 Running the App: Clone this repository!
