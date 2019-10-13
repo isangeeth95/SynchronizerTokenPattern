@@ -7,7 +7,7 @@ Running the App: Clone this repository!
 
 Open PhpStorm and open the cloned project.
 
-Setup the php interpreter from File -> Settings -> Language & Frameworks -> PHP -> CLI Interpreter
+Setup the php interpreter from File -> Settings -> Language & Frameworks -> PHP -> CLI Interpreter.
 Download PHP from https://www.php.net/downloads.php
 
 username **admin ** and password "123" to log in.
